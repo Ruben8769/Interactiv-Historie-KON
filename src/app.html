@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+	<style>
+		h1, h2, h3, p, input, button, textarea, a, label{
+			margin: 0;
+			padding: 0;
+			color: #222;
+		}
+		h1, h2, h3{
+			font-family: JetBrains Mono;
+		}
+		p, input, button, textarea, a, label{
+			font-family: Roboto;
+		}
+		p, a, label{
+			font-size: 1em;
+		}
+		a{
+			color:#2660cd;
+		}
+		input, button, textarea{
+			font-size: .8em;
+		}
+		body, html{
+			margin: 0;
+			padding: 0;
+			background-color: #d8d8d8;
+		}
+		button, input{
+			padding: .3em;
+			border: .1em solid #333;
+			border-radius: .4em;
+		}
+		button:hover{
+			cursor: pointer;
+		}
+		h3{font-size: 1.2em;}
+		h2{font-size: 1.6em;}
+		h1{font-size: 2em;}
+	</style>
+</html>
