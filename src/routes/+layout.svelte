@@ -1,4 +1,4 @@
-<header><h1>THE BACKROOMS</h1></header>
+<header><a href="/"><h1>THE BACKROOMS</h1></a></header>
 
 <main>
     <div class="mainContainer">
@@ -24,8 +24,7 @@
         margin-top: 3em;
         margin-bottom: 3em;
         border-radius: 1em;
-        min-width: 50em;
-        max-width: 70em;
+        width: 70em;
         height: fit-content;
         justify-content: space-between;
     }
