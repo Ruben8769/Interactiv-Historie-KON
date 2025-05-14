@@ -7,5 +7,5 @@
     </div>
 </div>
 <div class="container">
-    <img src="/img/carGarage.jpg" width="80%" alt="">
+    <img src="/img/carGarage.jpg" width="100%" alt="">
 </div>
