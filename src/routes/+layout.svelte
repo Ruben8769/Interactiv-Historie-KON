@@ -25,9 +25,8 @@
         margin-bottom: 3em;
         border-radius: 1em;
         min-width: 50em;
-        max-width: 80em;
+        max-width: 70em;
         height: fit-content;
         justify-content: space-between;
-        gap: 20em;
     }
 </style>
