@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/layer4/4c/+page.svelte";

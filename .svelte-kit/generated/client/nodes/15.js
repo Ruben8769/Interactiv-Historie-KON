@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/layer5/5c/+page.svelte";

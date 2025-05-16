@@ -19,7 +19,7 @@
     .mainContainer{
         display: flex;
         flex-direction: row;
-        background-color: #a2272787;
+        background-color: #b3aa887c;
         padding: 2em;
         margin-top: 3em;
         margin-bottom: 3em;

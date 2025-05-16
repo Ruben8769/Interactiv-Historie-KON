@@ -1,5 +1,5 @@
 <div class="container">
-    <p>Du faller gjennom gølvet ditt og havner i et rart room, som lukter mug. Du hører et bjeff i et annet room.</p>
+    <p>Du faller gjennom gølvet ditt og havner i et rart room, som lukter mug. Du hører et lite bjeff i et annet room.</p>
     <div class="choiceContaner">
         <a href="/layer3/3a">1. Legg deg på baken og sov.</a>
         <a href="/layer3/3b">2. Gå mot lyden.</a>
