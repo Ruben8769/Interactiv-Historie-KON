@@ -1,4 +1,12 @@
-<header><a href="/"><h1>THE BACKROOMS</h1></a></header>
+<script>
+    import { darkMode } from "$lib/stores/themeStore";
+    $: document.body.classList.toggle('dark', darkMode);
+</script>
+
+<header style="background-color: {$darkMode ? "#f2f2f2" : "#a22727"};">
+    <a href="/"><h1>THE BACKROOMS</h1></a>
+    <button on:click={() => darkMode != darkMode}>{($darkMode ? "Dark mode" : "Light mode")}</button>
+</header>
 
 <main>
     <div class="mainContainer">
