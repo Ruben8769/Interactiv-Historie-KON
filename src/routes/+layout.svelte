@@ -1,11 +1,14 @@
 <script>
     import { darkMode } from "$lib/stores/themeStore";
     $: document.body.classList.toggle('dark', darkMode);
+    function toggleTheme(){
+        darkMode != $darkMode
+    }
 </script>
 
 <header style="background-color: {$darkMode ? "#f2f2f2" : "#a22727"};">
     <a href="/"><h1>THE BACKROOMS</h1></a>
-    <button on:click={() => darkMode != darkMode}>{($darkMode ? "Dark mode" : "Light mode")}</button>
+    <button on:click={toggleTheme}>{($darkMode ? "Dark mode" : "Light mode")}</button>
 </header>
 
 <main>
